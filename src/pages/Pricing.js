@@ -5,18 +5,20 @@ import {Link} from 'react-router-dom'
 const Pricing = () => {
   return (
     <div className={style.pricing}>
-      <NavBar />
-      <div class="contentContainer">
+          <div class="contentContainer">
+          <NavBar />
             <h3>Pricing</h3>
             <p>
                 All sessions will include a sneak peak within 24 hours.<br />
                 25% deposit due at time of booking.<br />
                 Two week turnaround time.<br />
                 Travel costs upon request.<br />
-            </p>
-            <button id= 'contact' onclick="window.location.href='contact';">
+        </p>
+        <Link to='/contact'>
+            <button id= 'contact'>
                 <u>Book Session</u>
-            </button>
+          </button>
+        </Link>
             <div class="bronzeTier">
           <img src={require('../assets/pictures/couple4/C964CCD6-F500-4405-B9BD-6112AC132921.jpeg')} />
                 <h5>Bronze</h5>

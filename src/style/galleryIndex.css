@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 1800px;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.contentContainer{
+    border: 6px #D9A17F;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+    background: #F7EBDB;
+    text-align: center;
+}
+.contentContainer h3{
+    color: #819283;
+    font-weight: 400;
+}
+.galleryContainer{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.galleryContainer img{
+    height: 228px;
+    width: 171px;
+    border: 7px solid #e7c8b6;
+    border-radius: 5px;
+}
+.galleryContainer a{
+    color:#D9A17F;
+    cursor: pointer;
+}
+#pictureAnchor{
+    text-decoration: none;
+}

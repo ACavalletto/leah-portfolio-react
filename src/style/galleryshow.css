@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.contentContainer h3{
+    margin-top: 5px;
+    color: #819283;
+    font-weight: 400;
+}
+.imageContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    gap: 25px 0px;
+    padding: 0 50px 0 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.galleryImage{
+    height:180px;
+    width: 107px;
+    border: 7px solid #e7c8b6;
+    border-radius: 5px;
+}
