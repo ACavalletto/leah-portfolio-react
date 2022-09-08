@@ -1,4 +1,3 @@
-import './App.css';
 import Landing from './pages/Landing'
 import Pricing from './pages/Pricing'
 import GalleryIndex from './pages/GalleryIndex'

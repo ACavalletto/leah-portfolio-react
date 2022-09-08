@@ -8,24 +8,26 @@ const Landing = () => {
     <div className={style.landing}>
         <NavBar />
         <div class="cover">
-        <div id="coverTitle">
-            LEAH BINGHAM
-            <br />PHOTOGRAPHY
-              </div>
-        <Link to='/contact'>
-            <button id= 'contact'>
-                <u>Book Session</u>
-            </button>
-        </Link>
-    </div>
-    <div class="contentContainer">
-              <div class="gallerySection">
-              <img src={require("../assets/pictures/GracieGriffin/E48CF2F0-D2D4-47E7-870A-555D4853C60C.jpeg")}/>
-            <div class = "galleryBtn">
-                <button onclick="window.location.href='gallery';">
-                    <u>Gallery</u>
-                </button>
+            <div id="coverTitle">
+                LEAH BINGHAM
+                <br />PHOTOGRAPHY
             </div>
+            <Link to='/contact'>
+                <button id= 'contact'>
+                    <u>Book Session</u>
+                </button>
+            </Link>
+        </div>
+        <div class="contentContainer">
+            <div class="gallerySection">
+            <img src={require("../assets/pictures/GracieGriffin/E48CF2F0-D2D4-47E7-870A-555D4853C60C.jpeg")} />
+            <Link to='/gallery'>
+                <div class = "galleryBtn">
+                    <button>
+                        <u>Gallery</u>
+                    </button>
+                </div>
+            </Link>
         </div>
         <div class="testimonialsSection">
             <h5>Testimonials</h5>
@@ -36,12 +38,18 @@ const Landing = () => {
             <div>
                 <h5>About Me</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet tellus cras adipiscing enim. Pellentesque habitant morbi tristique senectus et netus et.</p>
-                <button onclick="window.location.href='contact';">
-                    <u>Contact Me</u>
-                </button>
+                <Link to='/contact'>
+                    <button >
+                        <u>Contact Me</u>
+                    </button>
+                </Link>
                 <div id="instagramHandle">
-                    <i class="fa-brands fa-instagram fa-xl"></i>
-                    : leahbinghamphoto
+                    <i class="fa-brands fa-instagram fa-xl">  
+                    </i>
+                    <a href='https://www.instagram.com/leahbinghamphoto/' target='_blank'>
+                        leahbinghamphoto
+                    </a>
+                    
                 </div>
             </div>
         </div>

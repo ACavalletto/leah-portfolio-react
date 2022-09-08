@@ -121,3 +121,14 @@ body{
     font-size: 16px;
     font-weight: 300;
 }
+#instagramHandle i{
+    margin-right: 5px;
+}
+#instagramHandle a{
+    text-decoration: inherit;
+    color: inherit;
+}
+#instagramHandle a:visited{
+    text-decoration: inherit;
+    color: inherit;
+}
