@@ -30,10 +30,12 @@ body{
 }
 .contentContainer{
     border: 6px #D9A17F;
+    display:inline-block;
     border-left-style: solid;
     border-bottom-style: solid;
     border-top-style: none;
     border-right-style: none;
+    height:100%;
 }
 .gallerySection{
     position:relative;

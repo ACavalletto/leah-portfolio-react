@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Pricing = () => {
   return (
     <div className={style.pricing}>
-          <div class="contentContainer">
+          <div className="contentContainer">
           <NavBar />
             <h3>Pricing</h3>
             <p>
@@ -19,7 +19,7 @@ const Pricing = () => {
                 <u>Book Session</u>
           </button>
         </Link>
-            <div class="bronzeTier">
+            <div className="bronzeTier">
           <img src={require('../assets/pictures/couple4/C964CCD6-F500-4405-B9BD-6112AC132921.jpeg')} />
                 <h5>Bronze</h5>
                 <h6>$150</h6>
@@ -32,7 +32,7 @@ const Pricing = () => {
                     </li>
                 </ul>
             </div>
-            <div class="silverTier">
+            <div className="silverTier">
           <img src={require('../assets/pictures/GracieGriffin/802E45A0-F70A-4ABE-BB35-6EF17C93F32E.jpeg')} />
                 <h5>Silver</h5>
                 <h6>$225</h6>
@@ -48,7 +48,7 @@ const Pricing = () => {
                     </li>
                 </ul>
             </div>
-            <div class="goldTier">
+            <div className="goldTier">
           <img src={require('../assets/pictures/couple5/039130D7-7DC0-4E75-B54E-98C3B1AEC91C.jpeg')} />
                 <h5>Gold</h5>
                 <h6>$320</h6>
@@ -65,7 +65,7 @@ const Pricing = () => {
                     <li>Multiple outfits</li>
                 </ul>
             </div>
-            <div class="minis">
+            <div className="minis">
           <img src={require('../assets/pictures/individual1/7E60EA8C-B54A-4336-BC2C-C76C4D9E8839.jpeg')} />
                 <h5>Minis</h5>
                 <h6>$75</h6>
