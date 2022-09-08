@@ -28,8 +28,8 @@ const NavBar = () => {
                 <Link to='/contact'>
                     <div>Contact</div>
                 </Link>
-            </div>
-                <Link to='javascipt:void(0)' className='icon' onClick={collapsible}>
+                    </div>
+            <Link className='icon' onClick={collapsible}>
                 <i className="fa fa-bars"></i>
             </Link>
         </div>
