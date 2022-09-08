@@ -120,12 +120,12 @@ body{
     color: #819283;
     font-size: 16px;
     font-weight: 300;
+    margin-top: 10px;
 }
 #instagramHandle i{
     margin-right: 5px;
 }
 #instagramHandle a{
-    text-decoration: inherit;
     color: inherit;
 }
 #instagramHandle a:visited{
