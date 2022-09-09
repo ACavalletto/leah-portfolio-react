@@ -9,6 +9,7 @@ const Contact = () => {
         <NavBar />
         <h3>Contact Me</h3>
         <form name='contact' method='post' netlify>
+          <input type='hidden' name='form-name' value='contact'/>
           <p>
             <label><input id='textInput' type='text' name='name' placeholder='Name'/></label>
           </p>
