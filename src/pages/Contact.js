@@ -8,8 +8,7 @@ const Contact = () => {
       <div className='contentContainer'>
         <NavBar />
         <h3>Contact Me</h3>
-        <form name='contact' method='post' onSubmit='submit'>
-          <input type='hidden' name='form-name' value='contact' />
+        <form name='contact' method='post' netlify>
           <p>
             <label><input id='textInput' type='text' name='name' placeholder='Name'/></label>
           </p>
