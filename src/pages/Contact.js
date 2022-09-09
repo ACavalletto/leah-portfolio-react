@@ -50,7 +50,7 @@ const Contact = () => {
             </p>
             <p>
               <label className='labelText'>Shoot Details: <br />
-                <textarea name='details' placeholder='Let me know about your shoot. ANy inspiration, details, or ideas.'></textarea>
+                <textarea name='details' placeholder='Let me know about your shoot. Any inspiration, details, or ideas.'></textarea>
               </label>
             </p>
             <p id='btn'>
