@@ -84,3 +84,7 @@ button{
 input[type='radio']{
     -webkit-appearance: radio;
 }
+.swal-modal{
+    background-color: #D9A17F;
+    color: #F7EBDB;
+}

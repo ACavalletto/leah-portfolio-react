@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar'
 import style from '../style/contact.css'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import swal from 'sweetalert'
 
 
 const Contact = () => {
@@ -16,7 +17,7 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text)
             });
-        alert('Thank you for contacting me!')
+        swal('Thank you for contacting me!', 'success')
     };
         
     return (
