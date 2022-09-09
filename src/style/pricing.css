@@ -68,7 +68,7 @@ body{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 .silverTier img{
     height:180px;
@@ -101,7 +101,7 @@ body{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 .goldTier img{
     height:180px;
@@ -134,7 +134,7 @@ body{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 50px;
 }
 .minis img{
