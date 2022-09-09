@@ -24,7 +24,7 @@ const Contact = () => {
           <NavBar />
           <h3>Contact Me</h3>
                 <form name='contact' ref={form} onSubmit={sendEmail}>
-            <input type='hidden' name='form-name' value='contact'/>
+
             <p>
               <label><input id='textInput' type='text' name='name' placeholder='Name'/></label>
             </p>

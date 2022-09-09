@@ -2,7 +2,7 @@ import Landing from './pages/Landing'
 import Pricing from './pages/Pricing'
 import GalleryIndex from './pages/GalleryIndex'
 import Gallery1 from './pages/Gallery1'
-import Contact from './pages/Contact'
+import Contact from './pages/Contact2'
 import { Route } from 'react-router'
 
 
