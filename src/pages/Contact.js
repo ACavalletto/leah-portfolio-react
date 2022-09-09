@@ -1,6 +1,7 @@
 import NavBar from '../components/NavBar'
 import style from '../style/contact.css'
 
+
 const Contact = () => {
   return (
     <div className={style.contact}>
@@ -18,13 +19,13 @@ const Contact = () => {
             <label className='labelText'> Price Tier: <br/>
               <div id='radioBtns'>
                 <input type='radio' id='bronze' name='tier' value='Bronze'/>
-                <label style='color:#A97142' for='bronze'>Bronze</label>
+                <label style={{ color: '#A97142' }} htmlFor='bronze'>Bronze</label>
                 <input type="radio" id="silver" name="tier" value="Silver"/>
-                <label  style="color:#aaa9ad"  for="silver">Silver</label>
+                <label style={{ color:"#aaa9ad"}}  htmlFor="silver">Silver</label>
                 <input type="radio" id="gold" name="tier" value="Gold"/>
-                <label style='color: #D4aF37'for="gold">Gold</label>
+                <label style={{ color: '#D4aF37' }} htmlFor="gold">Gold</label>
                 <input type="radio" id="mini" name="tier" value="Mini"/>
-                <label  style='color:#819283'for="mini">Mini</label>
+                <label style={{ color: '#819283' }}  htmlFor="mini">Mini</label>
               </div>
             </label>
           </p>
@@ -32,7 +33,7 @@ const Contact = () => {
             <label><input id='textInput' type='text' name='instagram' placeholder=' Instagram Handle' /></label>
           </p>
           <p>
-            <label class='labelText'>Shoot Deatils: <br />
+            <label className='labelText'>Shoot Details: <br />
               <textarea name='details' placeholder='Let me know about your shoot. ANy inspiration, details, or ideas.'></textarea>
             </label>
           </p>

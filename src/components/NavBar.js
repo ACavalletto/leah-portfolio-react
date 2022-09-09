@@ -33,7 +33,7 @@ const NavBar = () => {
     <header>
         <div className="topNav">
             <Link to='/' id="homeBtn">
-                <i class="fa-solid fa-camera"></i>
+                <i className="fa-solid fa-camera"></i>
             </Link>
             <div id="myLinks">
                 <Link to='/pricing'>
@@ -46,9 +46,9 @@ const NavBar = () => {
                     <div>Contact</div>
                 </Link>
                     </div>
-                <Link className='icon' onClick={collapsible}>
-                    <i class="fa fa-bars"></i>
-                </Link>
+                <a  href='#'className='icon' onClick={collapsible}>
+                    <i className="fa fa-bars"></i>
+                </a>
         </div>
     </header>
     </div>
