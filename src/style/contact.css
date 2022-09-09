@@ -27,7 +27,7 @@ form{
     gap: 25px;
 }
 form p{
-    width: 160px;
+    width: 100%;
 }
 textarea{
     height: 180px;
@@ -75,11 +75,11 @@ button{
 #radioBtns{
     display:flex;
     flex-direction:row;
-    margin-top:10px;
-    margin-left: -15px;
+    margin: 10px 80px 0 80px;
 }
 #radioBtns label{
     margin-right: 5px;
+    font-size: 14px;
 }
 input[type='radio']{
     -webkit-appearance: radio;
