@@ -46,9 +46,9 @@ const NavBar = () => {
                     <div>Contact</div>
                 </Link>
                     </div>
-                <a  href='#'className='icon' onClick={collapsible}>
+                <Link  to='#' className='icon' onClick={collapsible}>
                     <i className="fa fa-bars"></i>
-                </a>
+                </Link>
         </div>
     </header>
     </div>
