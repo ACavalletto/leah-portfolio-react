@@ -23,6 +23,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 25px;
 }
 form p{
@@ -60,6 +61,7 @@ button{
     color:#819283;
     font-size: 16px;
     font-weight: 200px;
+    margin: 0 auto;
 }
 #textInput::placeholder{
     color:#819283;
