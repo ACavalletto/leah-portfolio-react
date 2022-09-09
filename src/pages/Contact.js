@@ -16,6 +16,7 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text)
             });
+        alert('Thank you for contacting me!')
     };
         
     return (
