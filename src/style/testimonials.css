@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.TES_contentContainer{
+    border: 6px #D9A17F;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+    background: #F7EBDB;
+    text-align: center;
+    height: 101vh;
+}
+.TES_contentContainer h3{
+    color: #819283;
+    font-weight: 400;
+}
+.TES_contentContainer p{
+    padding: 0 50px;
+}
+#testimonialImg{
+    width: 213px;
+    height: 320px;
+    border: 7px solid #e7c8b6;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}

@@ -7,12 +7,12 @@ const GalleryIndex = () => {
     <div className={style.galleryIndex}>
       <div className="contentContainer">
         <NavBar />
-        <h3>Gallery</h3>
+        <h3>Collections</h3>
         <div className="galleryContainer">
-            <Link to='/gallery1' className="pictureAnchor">
+            <Link to='/collection1' className="pictureAnchor">
             <img src={require('../assets/pictures/GracieGriffin/D4B05AD5-825B-479D-A1E8-639282EC37F2.jpeg')} alt='Gracie and Griffin'/>
             </Link>
-            <Link to="/gallery1">
+            <Link to="/collection1">
                 Gracie and Griffin
             </Link>
         </div>

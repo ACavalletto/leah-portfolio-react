@@ -3,6 +3,7 @@ import Pricing from './pages/Pricing'
 import GalleryIndex from './pages/GalleryIndex'
 import Gallery1 from './pages/Gallery1'
 import Contact from './pages/Contact'
+import Testimonials from './pages/Testimonials'
 import { Route } from 'react-router'
 
 
@@ -12,17 +13,20 @@ function App() {
       <Route exact path='/'>
         <Landing />
       </Route>
-      <Route path='/pricing'>
+      <Route path='/investment'>
         <Pricing />
       </Route>
       <Route path='/contact'>
         <Contact />
       </Route>
-      <Route path='/gallery'>
+      <Route path='/collections'>
         <GalleryIndex />
       </Route>
-      <Route path='/gallery1'>
+      <Route path='/collection1'>
         <Gallery1 />
+      </Route>
+      <Route path='/testimonials'>
+        <Testimonials />
       </Route>
     </>
   );

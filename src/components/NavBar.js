@@ -36,11 +36,14 @@ const NavBar = () => {
                 <i className="fa-solid fa-camera"></i>
             </Link>
             <div id="myLinks">
-                <Link to='/pricing'>
-                    <div>Pricing</div>
+                <Link to='/investment'>
+                    <div>Investment</div>
                 </Link> 
-                <Link to='/gallery'>
-                    <div>Gallery</div>
+                <Link to='/collections'>
+                    <div>Collections</div>
+                </Link>
+                <Link to='/testimonials'>
+                    <div>Testimonials</div>
                 </Link>
                 <Link to='/contact'>
                     <div>Contact</div>

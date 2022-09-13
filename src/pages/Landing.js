@@ -20,18 +20,21 @@ const Landing = () => {
         </div>
         <div className="contentContainer">
             <div className="gallerySection">
-                <img src={require("../assets/pictures/GracieGriffin/E48CF2F0-D2D4-47E7-870A-555D4853C60C.jpeg")} alt='Couple' />
-                <Link to='/gallery'>
-                    <div className = "galleryBtn">
-                        <button>
-                            <u>Gallery</u>
-                        </button>
+                  <img src={require("../assets/pictures/GracieGriffin/E48CF2F0-D2D4-47E7-870A-555D4853C60C.jpeg")} alt='Couple' />
+                <div className='linkBtns'>
+                    <Link to='/collections'>
+                        <div className = "galleryBtn">
+                            <button>
+                                <u>Collections</u>
+                            </button>
+                        </div>
+                    </Link>
+                    <div className="testimonialsSection">
+                        <Link to='/testimonials'>
+                            <button><u>Testimonials</u></button>
+                        </Link>
                     </div>
-                </Link>
-            </div>
-            <div className="testimonialsSection">
-                <h5>Testimonials</h5>
-                <p>“When I tell you it was the absolute best decision we ever made when we chose Leah for our gender reveal photos! When I messaged her my vision and told her our situation of not knowing the exact day we would get the results back she jumped at the challenge. She really captured Hunter and I so well and went above and beyond. Our gender reveal was nothing like ones I normally see, and that’s why I wanted to do it! And, she made it even better then I could have hoped for! I can not recommend her enough and will definitely be using her again.”</p>
+                </div>
             </div>
             <div className="aboutSection">
                 <img src={require('../assets/pictures/36A42AF2-8EB1-4C15-AFC6-7260E3CAA6EA.jpeg')} alt='Leah and Nathan'/>

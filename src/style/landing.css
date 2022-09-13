@@ -28,7 +28,7 @@ body{
     border: none;
 }
 .contentContainer{
-    border: 6px #D9A17F;
+    border: 6px #f5f3f1;
     display:inline-block;
     border-left-style: solid;
     border-bottom-style: solid;
@@ -38,13 +38,13 @@ body{
 }
 .gallerySection{
     position:relative;
-    background-color: #F7EBDB;
+    background-color: #f5f3f1;
     margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5em;
-    padding: 50px 0px 35px 0px;
+    padding: 50px 0px 10px 0px;
 }
 .gallerySection img{
     width: 213px;
@@ -64,24 +64,21 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: #F7EBDB;
-    margin-top: -2px;
+    background: #f5f3f1;
     padding: 0 0 35px 0;
 }
-.testimonialsSection h5{
-    color: #819283;
-    margin-bottom:10px;
-    margin-top: 15px;
-    font-weight: 400;
-    font-size: 24px
+.testimonialsSection button{
+
+    width: 100px;
+    height: 25px;
+    background: #CFAD99;
+    color: #fff3cb;
+    border-radius: 5px;
+    border: none;
 }
-.testimonialsSection p{
-    font-size: 14px;
-    margin: 0 50px;
-    font-weight: 300;
-}
+
 .aboutSection{
-    background:#F7EBDB;
+    background:#f5f3f1;
     padding: 27px 50px 50px 50px;
     text-align: center;
     display: flex;
@@ -132,4 +129,9 @@ body{
 #instagramHandle a:visited{
     text-decoration: inherit;
     color: inherit;
+}
+.linkBtns{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
