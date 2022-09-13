@@ -56,7 +56,7 @@ body{
 }
 .gallerySection img{
     width: 213px;
-    height: 396px;
+    height: 325px;
     border-radius: 120px 120px 5px 5px;
 }
 .galleryBtn button{
@@ -72,7 +72,7 @@ body{
     flex-direction: column;
     text-align: center;
     background: #f5f3f1;
-    padding: 0 0 35px 0;
+    padding: 0 0 50px 0;
 }
 .testimonialsSection button{
     width: 100px;
@@ -93,9 +93,9 @@ body{
     margin-top: -2px;
 }
 .aboutSection img{
-    height: 220px;
-    width: 175px;
-    border-radius: 100% 100% 0 0;
+    width: 213px;
+    height: 325px;
+    border-radius: 120px 120px 5px 5px;
 }
 .aboutSection h5{
     font-size: 24px;

@@ -27,7 +27,7 @@ body{
 .galleryContainer img{
     height: 320px;
     width: 220px;
-    border-radius: 100% 100% 0 0;
+    border-radius: 120px 120px 5px 5px;
 }
 .galleryContainer a{
     color:#D9A17F;
