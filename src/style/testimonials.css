@@ -11,14 +11,13 @@ body{
     border-right-style: none;
     background: #F7EBDB;
     text-align: center;
-    height: 101vh;
 }
 .TES_contentContainer h3{
     color: #819283;
     font-weight: 400;
 }
 .TES_contentContainer p{
-    padding: 0 50px;
+    padding: 0 50px 25px 50px;
 }
 #testimonialImg{
     width: 213px;
