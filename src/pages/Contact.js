@@ -34,7 +34,7 @@ const Contact = () => {
               <label><input id='textInput' type='email' name='email' placeholder='Email' /></label>
             </p>
             <p>
-              <label className='labelText'> Price Tier: <br/>
+              <label className='labelText'> Investment Tier: <br/>
                 <div id='radioBtns'>
                   <input type='radio' id='bronze' name='tier' value='Bronze'/>
                   <label style={{ color: '#A97142' }} htmlFor='bronze'>Bronze</label>
@@ -52,7 +52,7 @@ const Contact = () => {
             </p>
             <p>
               <label className='labelText'>Shoot Details: <br />
-                <textarea name='details' placeholder='Let me know about your shoot. Any inspiration, details, or ideas.'></textarea>
+                <textarea name='details' placeholder='Tell me about your vision.'></textarea>
               </label>
             </p>
             <p id='btn'>
