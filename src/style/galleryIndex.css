@@ -25,10 +25,9 @@ body{
     gap: 10px;
 }
 .galleryContainer img{
-    height: 228px;
-    width: 171px;
-    border: 7px solid #e7c8b6;
-    border-radius: 5px;
+    height: 320px;
+    width: 220px;
+    border-radius: 100% 100% 0 0;
 }
 .galleryContainer a{
     color:#D9A17F;

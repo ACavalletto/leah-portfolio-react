@@ -19,8 +19,7 @@ body{
     margin-top: 50px;
 }
 .galleryImage{
-    height:180px;
-    width: 107px;
-    border: 7px solid #e7c8b6;
-    border-radius: 5px;
+    height:200px;
+    width: 125px;
+    border-radius: 100% 100% 0 0;
 }
