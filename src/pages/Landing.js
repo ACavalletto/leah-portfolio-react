@@ -12,11 +12,14 @@ const Landing = () => {
                 LEAH BINGHAM
                 <br />PHOTOGRAPHY
             </div>
+            <p>
+                Capturing moments and creating a safe space for all.
+            </p>
             <Link to='/contact'>
-                <button id= 'contact'>
+                <button id= 'contactLanding'>
                     <u>Book Session</u>
                 </button>
-            </Link>
+              </Link>
         </div>
         <div className="contentContainer">
             <div className="gallerySection">
@@ -40,7 +43,7 @@ const Landing = () => {
                 <img src={require('../assets/pictures/36A42AF2-8EB1-4C15-AFC6-7260E3CAA6EA.jpeg')} alt='Leah and Nathan'/>
                 <div>
                     <h5>About Me</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet tellus cras adipiscing enim. Pellentesque habitant morbi tristique senectus et netus et.</p>
+                    <p>I am Knoxville native and recent graduate from Middle Tennessee State University.</p>
                     <Link to='/contact'>
                         <button >
                             <u>Contact Me</u>

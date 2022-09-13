@@ -19,13 +19,21 @@ body{
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: #f8eed0;
 }
-#contact{
+.cover p{
+    font-size: 16px;
+    font-weight: 200;
+    color: #CFAD99;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #f8eed0;
+}
+#contactLanding{
     width: 100px;
     height: 25px;
     background: #cfad99bd;
     color: #fff3cb;
     border-radius: 5px;
     border: none;
+    margin-top: 0px;
 }
 .contentContainer{
     border: 6px #f5f3f1;
@@ -49,8 +57,7 @@ body{
 .gallerySection img{
     width: 213px;
     height: 396px;
-    border: 7px solid #e7c8b6;
-    border-radius: 5px;
+    border-radius: 120px 120px 5px 5px;
 }
 .galleryBtn button{
     width: 100px;
@@ -87,9 +94,9 @@ body{
     margin-top: -2px;
 }
 .aboutSection img{
-    height: 180px;
-    width: 135px;
-    border-radius: 100%;
+    height: 220px;
+    width: 175px;
+    border-radius: 100% 100% 0 0;
 }
 .aboutSection h5{
     font-size: 24px;
