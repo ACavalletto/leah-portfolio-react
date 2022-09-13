@@ -7,7 +7,7 @@ const Pricing = () => {
     <div className={style.pricing}>
           <div className="contentContainer">
           <NavBar />
-            <h3>Pricing</h3>
+            <h3>Investment</h3>
             <p>
                 All sessions will include a sneak peak within 24 hours.<br />
                 25% deposit due at time of booking.<br />

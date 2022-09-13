@@ -9,7 +9,7 @@ body{
     border-bottom-style: solid;
     border-top-style: none;
     border-right-style: none;
-    background: #F7EBDB;
+    background: #f5f3f1;
     text-align: center;
 }
 .contentContainer h3{
@@ -38,10 +38,9 @@ body{
     align-items: center;
 }
 .bronzeTier img{
-    height:180px;
-    width: 135px;
-    border-radius: 100%;
-    border: 2px solid #D9A17F;
+    height:220px;
+    width: 175px;
+    border-radius: 100% 100% 0 0;
 }
 .bronzeTier h5{
     margin: 5px 0 0 0;
@@ -71,10 +70,9 @@ body{
     margin-top: 35px;
 }
 .silverTier img{
-    height:180px;
-    width: 135px;
-    border-radius: 100%;
-    border: 2px solid #D9A17F;
+    height:220px;
+    width: 175px;
+    border-radius: 100% 100% 0 0;
 }
 .silverTier h5{
     margin: 5px 0 0 0;
@@ -104,10 +102,9 @@ body{
     margin-top: 35px;
 }
 .goldTier img{
-    height:180px;
-    width: 135px;
-    border-radius: 100%;
-    border: 2px solid #D9A17F;
+    height:220px;
+    width: 175px;
+    border-radius: 100% 100% 0 0;
 }
 .goldTier h5{
     margin: 5px 0 0 0;
@@ -138,10 +135,9 @@ body{
     margin-bottom: 50px;
 }
 .minis img{
-    height:180px;
-    width: 135px;
-    border-radius: 100%;
-    border: 2px solid #D9A17F;
+    height:220px;
+    width: 175px;
+    border-radius: 100% 100% 0 0;
 }
 .minis h5{
     margin: 5px 0 0 0;
