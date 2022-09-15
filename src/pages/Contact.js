@@ -33,8 +33,7 @@ const Contact = () => {
             <p>
               <label><input id='textInput' type='email' name='email' placeholder='Email' /></label>
             </p>
-
-            <p>
+            {/* <p>
               <label className='labelText'> Investment Tier: <br/>
                 <div id='investmentBtns'>
                   <input type='radio' id='bronze' name='tier' value='Bronze'/>
@@ -49,7 +48,7 @@ const Contact = () => {
                   <label style={{ color: '#819283' }}  htmlFor="custom">Custom</label>
                 </div>
               </label>
-            </p>
+            </p> */}
             <p>
               <label className='labelText'> Type of Shoot: <br/>
                 <div id='radioBtns'>
@@ -63,11 +62,18 @@ const Contact = () => {
                   <label htmlFor="lifestyle">Lifestyle</label>
                   <input type="radio" id="justForFun" name="type" value="JustForFun"/>
                   <label htmlFor="justForFun">Just for fun</label>
+                  <input type="radio" id="other" name="type" value="Other"/>
+                  <label htmlFor="other">Other</label>
                 </div>
               </label>
             </p>
             <p>
               <label><input id='textInput' type='text' name='instagram' placeholder=' Instagram Handle' /></label>
+            </p>
+            <p>
+              <label className='labelText'>Investment Package: <br />
+                <textarea name='packageText' placeholder='What package are you interested in? Any additional services wanted such as extra time, extra location, additonal outfits, etc.'></textarea>
+              </label>
             </p>
             <p>
               <label className='labelText'>Shoot Details: <br />
