@@ -11,6 +11,7 @@ body{
     border-right-style: none;
     background: #f5f3f1;
     text-align: center;
+    width: 100vw;
 }
 .contentContainer h3{
     margin-top: 24px;
@@ -24,6 +25,7 @@ form{
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
     gap: 25px;
 }
 form p{
@@ -75,10 +77,23 @@ button{
 #radioBtns{
     display:flex;
     flex-direction:row;
+    flex-wrap: wrap;
     margin: 10px 80px 0 80px;
 }
 #radioBtns label{
+    margin-left: 2px;
     margin-right: 5px;
+    font-size: 14px;
+}
+#investmentBtns{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 10px 80px 0 80px;
+}
+#investmentBtns label{
+    margin-left: 2px;
+    margin-right: 20px;
     font-size: 14px;
 }
 input[type='radio']{

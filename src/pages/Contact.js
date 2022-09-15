@@ -33,9 +33,10 @@ const Contact = () => {
             <p>
               <label><input id='textInput' type='email' name='email' placeholder='Email' /></label>
             </p>
+
             <p>
               <label className='labelText'> Investment Tier: <br/>
-                <div id='radioBtns'>
+                <div id='investmentBtns'>
                   <input type='radio' id='bronze' name='tier' value='Bronze'/>
                   <label style={{ color: '#A97142' }} htmlFor='bronze'>Bronze</label>
                   <input type="radio" id="silver" name="tier" value="Silver"/>
@@ -44,6 +45,24 @@ const Contact = () => {
                   <label style={{ color: '#D4aF37' }} htmlFor="gold">Gold</label>
                   <input type="radio" id="mini" name="tier" value="Mini"/>
                   <label style={{ color: '#819283' }}  htmlFor="mini">Mini</label>
+                  <input type="radio" id="custom" name="tier" value="Custom"/>
+                  <label style={{ color: '#819283' }}  htmlFor="custom">Custom</label>
+                </div>
+              </label>
+            </p>
+            <p>
+              <label className='labelText'> Type of Shoot: <br/>
+                <div id='radioBtns'>
+                  <input type='radio' id='couples' name='type' value='Couples'/>
+                  <label htmlFor='couples'>Couples</label>
+                  <input type="radio" id="seniors" name="type" value="Seniors"/>
+                  <label htmlFor="seniors">Seniors</label>
+                  <input type="radio" id="Wedding" name="type" value="Wedding"/>
+                  <label htmlFor="wedding">Wedding</label>
+                  <input type="radio" id="lifestyle" name="type" value="Lifestyle"/>
+                  <label htmlFor="lifestyle">Lifestyle</label>
+                  <input type="radio" id="justForFun" name="type" value="JustForFun"/>
+                  <label htmlFor="justForFun">Just for fun</label>
                 </div>
               </label>
             </p>
