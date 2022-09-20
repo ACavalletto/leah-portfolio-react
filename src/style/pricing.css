@@ -43,10 +43,11 @@ body{
     border-radius: 120px 120px 5px 5px;
 }
 .bronzeTier h5{
-    margin: 5px 0 0 0;
     font-size: 16px;
     font-weight: 600;
     color: #A97142;
+    margin: 0px 0 -35px 0;
+    z-index: 1;
 }
 .bronzeTier h6{
     margin: 5px 0 0 0;
@@ -75,10 +76,11 @@ body{
     border-radius: 120px 120px 5px 5px;
 }
 .silverTier h5{
-    margin: 5px 0 0 0;
+    margin: 0px 0 -35px 0;
+    z-index: 1;
     font-size: 16px;
     font-weight: 600;
-    color: #aaa9ad;
+    color: #7a797e;
 }
 .silverTier h6{
     margin: 5px 0 0 0;
@@ -107,7 +109,8 @@ body{
     border-radius: 120px 120px 5px 5px;
 }
 .goldTier h5{
-    margin: 5px 0 0 0;
+    margin: 0px 0 -35px 0;
+    z-index: 1;
     font-size: 16px;
     font-weight: 600;
     color: #D4aF37;
@@ -140,7 +143,8 @@ body{
     border-radius: 120px 120px 5px 5px;
 }
 .minis h5{
-    margin: 5px 0 0 0;
+    margin: 0px 0 -35px 0;
+    z-index: 1;
     font-size: 16px;
     font-weight: 600;
     color: #819283;
