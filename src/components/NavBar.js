@@ -24,7 +24,10 @@ const NavBar = () => {
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&display=swap"
       rel="stylesheet"
-    />
+     />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet"></link>
     <script src="https://kit.fontawesome.com/ef037e1fd7.js" crossorigin="anonymous"></script>
     <script src="../public/javascript/menu.js" defer></script>
 
