@@ -7,19 +7,19 @@ body{
     margin-top: 5px;
     color: #819283;
     font-weight: 400;
+    margin-bottom: 5px;
 }
 .imageContainer{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    justify-content: space-between;
-    gap: 40px 0px;
+    justify-content: center;
+    /* gap: 40px 0px; */
     padding: 0 50px 0 50px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 .galleryImage{
-    height:200px;
-    width: 125px;
-    border-radius: 120px 120px 5px 5px;
+    height:235px;
+    width: 135px;
 }

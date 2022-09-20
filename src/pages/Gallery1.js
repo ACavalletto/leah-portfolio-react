@@ -6,7 +6,7 @@ const Gallery1 = () => {
     <div className={style.galleryshow}>
       <div className="contentContainer">
             <NavBar />
-            <h3>Couple</h3>
+            <h3>Couples</h3>
             <div className="imageContainer">
                 <img className='galleryImage' 
                 src={require('../assets/pictures/GracieGriffin/1720B22D-3BFE-4759-8775-40F179985C63.jpeg')} alt='couple'/>
