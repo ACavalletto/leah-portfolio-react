@@ -42,24 +42,23 @@ const Landing = () => {
                     </div>
                 </div>
             </div>
-            <div className="aboutSection">
-                <img src={require('../assets/pictures/36A42AF2-8EB1-4C15-AFC6-7260E3CAA6EA.jpeg')} alt='Leah and Nathan'/>
+              <div className="aboutSection">
+                <h5>About Me</h5>
+                  <img src={require('../assets/pictures/36A42AF2-8EB1-4C15-AFC6-7260E3CAA6EA.jpeg')} alt='Leah and Nathan' />
+                  <div id="instagramHandle">
+                        <i className="fa-brands fa-instagram fa-xl">  
+                        </i>
+                        <a href='https://www.instagram.com/leahbinghamphoto/' target='_blank' rel='noreferrer'>
+                            leahbinghamphoto
+                        </a>  
+                    </div>
                 <div>
-                    <h5>About Me</h5>
                     <p>I am Knoxville native and recent graduate from Middle Tennessee State University.</p>
                     <Link to='/contact'>
                         <button >
                             <u>Contact Me</u>
                         </button>
                     </Link>
-                    <div id="instagramHandle">
-                        <i className="fa-brands fa-instagram fa-xl">  
-                        </i>
-                        <a href='https://www.instagram.com/leahbinghamphoto/' target='_blank' rel='noreferrer'>
-                            leahbinghamphoto
-                        </a>
-                        
-                    </div>
                 </div>
             </div>
     </div>

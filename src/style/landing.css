@@ -97,10 +97,11 @@ body{
     border-radius: 120px 120px 5px 5px;
 }
 .aboutSection h5{
-    font-size: 24px;
-    font-weight: 400;
-    margin: 20px 0 5px 0;
-    color: #819283;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 20px 0 -70px 0;
+    color: #f8eed0;
+    z-index: 1;
 }
 .aboutSection p{
     margin-top: 0;
@@ -117,13 +118,14 @@ body{
     margin-bottom: 15px;
 }
 .aboutSection i{
-    color:#819283
+    color:#fff3cb
 }
 #instagramHandle{
-    color: #819283;
-    font-size: 16px;
+    color: #fff3cb;
+    font-size: 18px;
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: -30px;
+    margin-bottom: 15px;
 }
 #instagramHandle i{
     margin-right: 5px;
