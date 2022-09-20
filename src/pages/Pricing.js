@@ -11,7 +11,7 @@ const Pricing = () => {
             <p>
                 All sessions will include a sneak peak within 24 hours.<br />
                 25% deposit due at time of booking.<br />
-                Two to three week turnaround time.<br />
+                2-3 week turnaround time.<br />
                 Travel costs upon request.<br />
         </p>
         <Link to='/contact'>
