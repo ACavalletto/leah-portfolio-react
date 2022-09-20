@@ -141,3 +141,22 @@ body{
     flex-direction: row;
     gap: 5px;
 }
+#landingSlogan{
+    margin-top: -55px;
+    background: transparent;
+    text-align: center;
+}
+#landingSloganLine1{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #f8eed0;
+
+}
+#landingSloganLine2{
+    margin-top: 0px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #CFAD99;
+    font-family: 'Dancing Script';
+}

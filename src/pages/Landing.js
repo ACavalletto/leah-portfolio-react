@@ -12,16 +12,19 @@ const Landing = () => {
                 LEAH BINGHAM
                 <br />PHOTOGRAPHY
             </div>
-            <p>
-                Capturing moments and creating a safe space for all.
-            </p>
             <Link to='/contact'>
                 <button id= 'contactLanding'>
                     <u>Book Session</u>
                 </button>
-              </Link>
+            </Link>
         </div>
-        <div className="contentContainer">
+          <div className="contentContainer">
+        <div id='landingSlogan'>
+            <p id='landingSloganLine1'>
+                Capturing moments and <br/>
+            </p>
+            <p id='landingSloganLine2'>creating a safe space for all.</p>
+        </div>
             <div className="gallerySection">
                   <img src={require("../assets/pictures/GracieGriffin/E48CF2F0-D2D4-47E7-870A-555D4853C60C.jpeg")} alt='Couple' />
                 <div className='linkBtns'>
