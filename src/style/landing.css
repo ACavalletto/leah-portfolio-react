@@ -51,8 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5em;
-    padding: 50px 0px 10px 0px;
+    padding: 25px 0px 0px 0px;
 }
 .gallerySection img{
     width: 213px;
@@ -71,7 +70,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: #f5f3f1;
+    background: transparent;
     padding: 0 0 50px 0;
 }
 .testimonialsSection button{
@@ -140,6 +139,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 5px;
+    margin-top: -30px;
 }
 #landingSlogan{
     margin-top: -50px;
