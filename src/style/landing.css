@@ -77,6 +77,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 25px 0px 0px 0px;
+    margin-bottom: 20px;
 }
 .gallerySection img{
     width: 213px;
@@ -106,7 +107,13 @@ body{
     border-radius: 5px;
     border: none;
 }
-
+.linkBtns{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: -30px;
+    height: 30px;
+}
 .aboutSection{
     background:#f5f3f1;
     padding: 27px 50px 5px 50px;
@@ -183,10 +190,4 @@ span{
     border-radius: 5px;
     border: none;
     margin-left: 15px;
-}
-.linkBtns{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    margin-top: -30px;
 }
