@@ -67,9 +67,9 @@ const Pricing = () => {
                     <li>Multiple outfits</li>
                 </ul>
             </div>
-              <div className="minis">
-              <h5>Minis</h5>
-          <img src={require('../assets/pictures/individual1/7E60EA8C-B54A-4336-BC2C-C76C4D9E8839.jpeg')} alt='a girl and her dog'/>
+            {/* <div className="minis">
+                <h5>Minis</h5>
+                <img src={require('../assets/pictures/individual1/7E60EA8C-B54A-4336-BC2C-C76C4D9E8839.jpeg')} alt='a girl and her dog'/>
                 <h6>$75</h6>
                 <ul>
                     <li>
@@ -79,7 +79,7 @@ const Pricing = () => {
                         10 digital images
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     </div>
   )

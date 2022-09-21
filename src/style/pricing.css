@@ -38,8 +38,8 @@ body{
     align-items: center;
 }
 .bronzeTier img{
-    height:220px;
-    width: 175px;
+    height:311px;
+    width: 195px;
     border-radius: 120px 120px 5px 5px;
 }
 .bronzeTier h5{
@@ -71,8 +71,8 @@ body{
     margin-top: 35px;
 }
 .silverTier img{
-    height:220px;
-    width: 175px;
+    height:311px;
+    width: 195px;
     border-radius: 120px 120px 5px 5px;
 }
 .silverTier h5{
@@ -104,8 +104,8 @@ body{
     margin-top: 35px;
 }
 .goldTier img{
-    height:220px;
-    width: 175px;
+    height:311px;
+    width: 195px;
     border-radius: 120px 120px 5px 5px;
 }
 .goldTier h5{
@@ -129,7 +129,7 @@ body{
 .goldTier li{
     text-align: left;
 }
-.minis{
+/* .minis{ 
     display:flex;
     flex-direction: column;
     text-align: center;
@@ -162,5 +162,5 @@ body{
 }
 .minis li{
     text-align: left;
-}
+} */
 
