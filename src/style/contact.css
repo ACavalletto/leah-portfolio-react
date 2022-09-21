@@ -1,3 +1,7 @@
+@font-face{
+    src: url(../assets/fonts/Callifornia.ttf);
+    font-family: callifornia;
+}
 body{
     margin: 0;
     box-sizing: border-box;
@@ -45,7 +49,8 @@ textarea::placeholder{
     color:#fff3cb
 }
 #btn{
-    margin-bottom: 92px;
+    margin-top: -15px;
+    margin-bottom: 25px;
 }
 button{
     width: 120px;
@@ -92,4 +97,10 @@ input[type='radio']{
 .swal-modal{
     background-color: #D9A17F;
     color: #F7EBDB;
+}
+#C_slogan{
+    font-family: callifornia, cursive;
+    font-size: 44px;
+    margin: -15px 0 0 0;
+    color: #D9A17F;
 }

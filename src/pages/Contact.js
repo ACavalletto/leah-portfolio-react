@@ -64,6 +64,7 @@ const Contact = () => {
                 <textarea name='details' placeholder='Tell me about your vision.'></textarea>
               </label>
             </p>
+            <p id='C_slogan'>I can't wait to hear from you!</p>
             <p id='btn'>
               <button type='submit'>Send</button>
             </p>
