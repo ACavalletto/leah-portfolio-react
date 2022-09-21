@@ -40,21 +40,24 @@ body{
     margin-top: 0px;
 }
 #landingSlogan{
-    margin-top: -70px;
+    margin-top: -62px;
+    margin-bottom:-40px;
     background: transparent;
     text-align: center;
+    position: relative;
+    z-index: 1;
     /* color: #819283; */
     color: #CFAD99;
     line-height: 1;
 }
 #landingSloganLine1{
-    font-size: 38px;
+    font-size: 46px;
     margin-bottom: 5px;
     font-family: callifornia, cursive;
 }
 #landingSloganLine2{
     margin-top: 0px;
-    font-size: 38px;
+    font-size: 46px;
     font-family: callifornia, cursive;
 }
 .contentContainer{
