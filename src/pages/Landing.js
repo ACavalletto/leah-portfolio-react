@@ -41,20 +41,19 @@ const Landing = () => {
                         </Link>
                     </div>
                 </div>
-              </div>
-              <div id='leftAboutL'>
+            </div>
+            <div id='leftAboutL'>
                     <h5 id='aboutHeaderL'>Hello<br /><span>There...</span></h5>
                     <div id='aboutTextL'>
-                        <p>I am Knoxville native and recent graduate from Middle Tennessee State University.</p>
                         <Link to='/contact'>
                             <button >
                                 <u>Contact Me</u>
                             </button>
                         </Link>
-                    </div>
-                </div>
-              <div className="aboutSection">
-                  <img src={require('../assets/pictures/leahheadshot.jpeg')} alt='Leah and Nathan' />
+                    </div>  
+            </div>
+            <div className="aboutSection">
+                  <img src={require('../assets/pictures/leahheadshot.jpeg')} alt='Leah Bingham' />
                   <div id="instagramHandle">
                         <i className="fa-brands fa-instagram fa-xl">  
                         </i>
@@ -62,7 +61,8 @@ const Landing = () => {
                             leahbinghamphoto
                         </a>  
                     </div>
-            </div>
+              </div>
+              <p id='L_aboutP'>I am Knoxville native and recent graduate from Middle Tennessee State University. I have dabbled in photography since I was a teenager, but never saw it as my career. My last year in college I fell back in love with photos and realized just how much joy it brings me to capture raw, authentic moments. After moving back to Knoxville, I sstarted working towards my goal of becoming a full time photographer and here I am today. I am very grateful and I hop we get to work together!</p>
     </div>
     </div>
   )
