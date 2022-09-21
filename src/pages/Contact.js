@@ -33,22 +33,6 @@ const Contact = () => {
             <p>
               <label><input id='textInput' type='email' name='email' placeholder='Email' /></label>
             </p>
-            {/* <p>
-              <label className='labelText'> Investment Tier: <br/>
-                <div id='investmentBtns'>
-                  <input type='radio' id='bronze' name='tier' value='Bronze'/>
-                  <label style={{ color: '#A97142' }} htmlFor='bronze'>Bronze</label>
-                  <input type="radio" id="silver" name="tier" value="Silver"/>
-                  <label style={{ color:"#aaa9ad"}}  htmlFor="silver">Silver</label>
-                  <input type="radio" id="gold" name="tier" value="Gold"/>
-                  <label style={{ color: '#D4aF37' }} htmlFor="gold">Gold</label>
-                  <input type="radio" id="mini" name="tier" value="Mini"/>
-                  <label style={{ color: '#819283' }}  htmlFor="mini">Mini</label>
-                  <input type="radio" id="custom" name="tier" value="Custom"/>
-                  <label style={{ color: '#819283' }}  htmlFor="custom">Custom</label>
-                </div>
-              </label>
-            </p> */}
             <p>
               <label className='labelText'> Type of Shoot: <br/>
                 <div id='radioBtns'>
