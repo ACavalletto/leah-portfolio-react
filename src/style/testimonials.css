@@ -1,3 +1,7 @@
+@font-face{
+    src: url(../assets/fonts/Callifornia.ttf);
+    font-family: callifornia;
+}
 body{
     margin: 0;
     box-sizing: border-box;
@@ -25,4 +29,23 @@ body{
     border: 7px solid #e7c8b6;
     border-radius: 5px;
     margin-bottom: 25px;
+}
+#TES_names{
+    color: #9eae9f;
+    font-family: callifornia, cursive;
+    font-size:54px;
+    font-weight: 400;
+    margin-top: -85px;
+    padding-right: 180px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+#TES_names #text{
+    margin-bottom: 0;
+}
+#TES_span{
+    margin-left: 100px;
+}
+#TES_p{
+    margin-top: 0;
 }

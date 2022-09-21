@@ -84,38 +84,19 @@ body{
 
 .aboutSection{
     background:#f5f3f1;
-    padding: 27px 50px 50px 50px;
+    padding: 27px 50px 5px 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -2px;
+    padding-left: 45px;
+    margin-bottom: 10px;
 }
 .aboutSection img{
     width: 213px;
     height: 325px;
     border-radius: 120px 120px 5px 5px;
-}
-.aboutSection h5{
-    font-size: 26px;
-    font-weight: 500;
-    margin: 20px 0 -70px 0;
-    color: #f8eed0;
-    z-index: 1;
-}
-.aboutSection p{
-    margin-top: 0;
-    font-size: 14px;
-    font-weight: 300;
-}
-.aboutSection button{
-    width: 100px;
-    height: 25px;
-    background: #CFAD99;
-    color: #fff3cb;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 15px;
 }
 .aboutSection i{
     color:#fff3cb
@@ -126,6 +107,7 @@ body{
     font-weight: 300;
     margin-top: -30px;
     margin-bottom: 15px;
+    width: 200px;
 }
 #instagramHandle i{
     margin-right: 5px;
@@ -136,6 +118,44 @@ body{
 #instagramHandle a:visited{
     text-decoration: inherit;
     color: inherit;
+}
+#leftAboutL{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width:40%;
+}
+#aboutHeaderL{
+    font-size: 26px;
+    font-weight: 500;
+    color: #CFAD99;
+    margin-left: -60px;
+    margin-bottom: 15px;
+    z-index: 1;
+    font-family: 'Petit Formal Script', cursive;
+}
+span{
+    margin: 15px 0 0 50px;
+}
+#aboutTextL{
+    width: 100px;
+    margin: 0 0 0 20px;
+}
+#aboutTextL p{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+    width: 135px;
+    margin-bottom: 20px;
+}
+#aboutTextL button{
+    width: 100px;
+    height: 25px;
+    background: #CFAD99;
+    color: #fff3cb;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
 }
 .linkBtns{
     display: flex;
