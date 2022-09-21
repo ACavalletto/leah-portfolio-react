@@ -54,7 +54,7 @@ const Landing = () => {
                     </div>
                 </div>
               <div className="aboutSection">
-                  <img src={require('../assets/pictures/36A42AF2-8EB1-4C15-AFC6-7260E3CAA6EA.jpeg')} alt='Leah and Nathan' />
+                  <img src={require('../assets/pictures/leahheadshot.jpeg')} alt='Leah and Nathan' />
                   <div id="instagramHandle">
                         <i className="fa-brands fa-instagram fa-xl">  
                         </i>
