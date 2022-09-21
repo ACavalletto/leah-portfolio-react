@@ -62,7 +62,7 @@ const Landing = () => {
                         </a>  
                     </div>
               </div>
-              <p id='L_aboutP'>I am Knoxville native and recent graduate from Middle Tennessee State University. I have dabbled in photography since I was a teenager, but never saw it as my career. My last year in college I fell back in love with photos and realized just how much joy it brings me to capture raw, authentic moments. After moving back to Knoxville, I sstarted working towards my goal of becoming a full time photographer and here I am today. I am very grateful and I hop we get to work together!</p>
+              <p id='L_aboutP'>I am Knoxville native and recent graduate from Middle Tennessee State University. I have dabbled in photography since I was a teenager, but never saw it as my career. My last year in college I fell back in love with photos and realized just how much joy it brings me to capture raw, authentic moments. After moving back to Knoxville, I started working towards my goal of becoming a full time photographer and here I am today. I am very grateful and I hope we get to work together!</p>
     </div>
     </div>
   )
