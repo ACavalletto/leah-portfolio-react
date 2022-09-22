@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Pricing = () => {
   return (
     <div className={style.pricing}>
-          <div className="contentContainer">
+          <div className="P_contentContainer">
           <NavBar />
             <h3>Investment</h3>
             <p>
@@ -18,7 +18,8 @@ const Pricing = () => {
             <button id= 'contact'>
                 <u>Book Session</u>
           </button>
-        </Link>
+              </Link>
+        <div id='tiers'>
         <div className="bronzeTier">
             <h5>Bronze</h5>
             <img src={require('../assets/pictures/couple4/C964CCD6-F500-4405-B9BD-6112AC132921.jpeg')} alt='couple'/>
@@ -51,36 +52,24 @@ const Pricing = () => {
             </div>
               <div className="goldTier">
                   <h5>Gold</h5>
-          <img src={require('../assets/pictures/couple5/039130D7-7DC0-4E75-B54E-98C3B1AEC91C.jpeg')} alt='couple'/>
+                    <img src={require('../assets/pictures/couple5/039130D7-7DC0-4E75-B54E-98C3B1AEC91C.jpeg')} alt='couple'/>
                 
-                <h6>$320</h6>
-                <ul>
-                    <li>
-                        90-120 minute coverage
-                    </li>
-                    <li>
-                        Black and white photos
-                    </li>
-                    <li>
-                        45+ digital images
-                    </li>
-                    <li>Multiple outfits</li>
-                </ul>
-            </div>
-            {/* <div className="minis">
-                <h5>Minis</h5>
-                <img src={require('../assets/pictures/individual1/7E60EA8C-B54A-4336-BC2C-C76C4D9E8839.jpeg')} alt='a girl and her dog'/>
-                <h6>$75</h6>
-                <ul>
-                    <li>
-                        15 minute coverage
-                    </li>
-                    <li>
-                        10 digital images
-                    </li>
-                </ul>
-            </div> */}
+                    <h6>$320</h6>
+                    <ul>
+                        <li>
+                            90-120 minute coverage
+                        </li>
+                        <li>
+                            Black and white photos
+                        </li>
+                        <li>
+                            45+ digital images
+                        </li>
+                        <li>Multiple outfits</li>
+                    </ul>
+                  </div>
         </div>
+    </div>
     </div>
   )
 }

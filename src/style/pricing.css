@@ -3,7 +3,7 @@ body{
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
 }
-.contentContainer{
+.P_contentContainer{
     border: 6px #D9A17F;
     border-left-style: solid;
     border-bottom-style: solid;
@@ -12,12 +12,12 @@ body{
     background: #f5f3f1;
     text-align: center;
 }
-.contentContainer h3{
+.P_contentContainer h3{
     margin-top: 0px;
     color: #819283;
     font-weight: 400;
 }
-.contentContainer p{
+.P_contentContainer p{
     font-size: 14px;
     font-weight: 300;
 }
@@ -129,38 +129,27 @@ body{
 .goldTier li{
     text-align: left;
 }
-/* .minis{ 
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    margin-top: 35px;
-    margin-bottom: 50px;
+@media screen and (min-width: 481px){
+    #tiers{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        gap: 100px;
+        margin-bottom: 85px;
+    }
+    .bronzeTier{
+        margin-left: 15px;
+        margin-top: 36px;
+    }
+    .P_contentContainer p{
+        font-size: 18px;
+    }
+    .P_contentContainer h3{
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+    #contact {
+        width: 150px;
+        height: 35px;
+    }
 }
-.minis img{
-    height:220px;
-    width: 175px;
-    border-radius: 120px 120px 5px 5px;
-}
-.minis h5{
-    margin: 0px 0 -35px 0;
-    z-index: 1;
-    font-size: 16px;
-    font-weight: 600;
-    color: #819283;
-}
-.minis h6{
-    margin: 5px 0 0 0;
-    font-size: 14px;
-    font-weight: 400;
-}
-.minis ul{
-    margin-top: 5px;
-    font-size: 14px;
-    font-weight: 300;
-    padding-left: 0;
-}
-.minis li{
-    text-align: left;
-} */
-
