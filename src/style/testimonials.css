@@ -49,3 +49,11 @@ body{
 #TES_p{
     margin-top: 0;
 }
+@media screen and (min-width: 481px){
+    #testimonialImg{
+        margin: 50px 0 ;
+    }
+    #TES_p{
+        margin: 50px 50px 87px 50px;
+    }
+}
