@@ -1,9 +1,26 @@
 import NavBar from '../components/NavBar'
+import {useState, useEffect} from 'react'
 import style from '../style/landing.css'
 import {Link} from 'react-router-dom'
 
-
 const Landing = () => {
+    function getWindowDimensions() {
+        const { innerWidth: width } = window;
+        return {
+            width
+        };
+    }
+    
+    const [windowWidth, setWindowHeight] = useState(getWindowDimensions())
+    useEffect(() => {
+        function handleResize() {
+            setWindowHeight(getWindowDimensions());
+        }
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
   return (
     <div className={style.landing}>
         <NavBar />
@@ -25,7 +42,7 @@ const Landing = () => {
             </p>
             <p id='landingSloganLine2'>creating a safe space for all.</p>
         </div>
-            <div className="gallerySection">
+              <div className="gallerySection">
                   <img src={require("../assets/pictures/GracieGriffin/E48CF2F0-D2D4-47E7-870A-555D4853C60C.jpeg")} alt='Couple' />
                 <div className='linkBtns'>
                     <Link to='/collections'>
@@ -40,7 +57,9 @@ const Landing = () => {
                             <button><u>Testimonials</u></button>
                         </Link>
                     </div>
-                </div>
+                  </div>
+                  {windowWidth > '480px' && 
+                  <img id='L_tabletImg' src={require("../assets/pictures/couple4/AF19AC1E-147F-4FA7-9118-588AE6D9C4ED.jpeg")} alt='Couple'/>}
             </div>
             <div id='leftAboutL'>
                     <h5 id='aboutHeaderL'>Hello<br /><span>There...</span></h5>

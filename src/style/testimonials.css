@@ -26,8 +26,8 @@ body{
 #testimonialImg{
     width: 213px;
     height: 320px;
-    border: 7px solid #e7c8b6;
-    border-radius: 5px;
+
+    border-radius: 120px 120px 5px 5px;
     margin-bottom: 25px;
 }
 #TES_names{

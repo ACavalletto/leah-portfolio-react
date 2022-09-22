@@ -46,7 +46,6 @@ body{
     text-align: center;
     position: relative;
     z-index: 1;
-    /* color: #819283; */
     color: #CFAD99;
     line-height: 1;
 }
@@ -176,13 +175,6 @@ span{
     width: 100px;
     margin: 0 0 0 20px;
 }
-#aboutTextL p{
-    margin-top: 0;
-    font-size: 14px;
-    font-weight: 300;
-    width: 135px;
-    margin-bottom: 20px;
-}
 #aboutTextL button{
     width: 100px;
     height: 25px;
@@ -195,4 +187,62 @@ span{
 #L_aboutP{
     padding: 0 25px 10px 15px;
     text-align: justify;
+}
+
+@media screen and (min-width: 481px){
+    .cover{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../assets/pictures/individual2/39C00772-36B1-4013-8330-4F5DBA1ADFBD.jpeg"), url('../assets//pictures/couple4/9EEBCCBF-D2F3-45FA-90EB-9362CF20DAC5.jpeg'), url('../assets/pictures/GracieGriffin/E48CF2F0-D2D4-47E7-870A-555D4853C60C.jpeg');
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: left, center, right;
+        background-size: 33.33%;
+        height: 380px;
+    }
+    #landingSlogan{
+        margin-top: -62px;
+        margin-bottom:-40px;
+        line-height: .75;
+    }
+    #landingSloganLine1{
+        font-size: 56px;
+    }
+    #landingSloganLine2{
+        font-size: 56px;
+    }
+    .gallerySection{
+        flex-direction: row;
+        gap: 30px;
+        margin-left: 75px;
+    }
+    .linkBtns{
+        flex-direction: column;
+        gap: 60px;
+        height: 50px;
+    }
+    .testimonialsSection button{
+        height: 35px;
+    }
+    .galleryBtn button{
+        height: 35px;
+    }
+    #aboutHeaderL{
+        font-size: 120px;
+        margin-top: -30px;
+        margin-left: 60px;
+    }
+    #aboutTextL button{
+        height: 35px;
+        margin-left: 100px;
+        margin-top: -100px;
+        width: 200px;
+    }
+    #L_aboutP{
+        padding: 10px 125px 10px 125px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 1.5;
+    }
 }

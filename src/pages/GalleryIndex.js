@@ -7,7 +7,7 @@ const GalleryIndex = () => {
     <div className={style.galleryIndex}>
       <div className="contentContainer">
         <NavBar />
-        <h3>Collections</h3>
+        <h3 id='C_title'>Collections</h3>
         <div className="galleryContainer">
             <Link to='/collection1' className="pictureAnchor">
             <img src={require('../assets/pictures/GracieGriffin/D4B05AD5-825B-479D-A1E8-639282EC37F2.jpeg')} alt='Gracie and Griffin'/>
@@ -17,16 +17,16 @@ const GalleryIndex = () => {
             </Link>
         </div>
         <div className="galleryContainer">
-            <Link to="#" className="pictureAnchor">
-            <img src={require('../assets/pictures/couple3/9CA83304-F1A3-41D3-9A80-52608A2BBD29.jpeg')} alt ='couple'/>
-            </Link>
             <Link id ='GI_linkText' to="#">
                 Maternity
+            </Link>
+            <Link to="#" className="pictureAnchor">
+            <img src={require('../assets/pictures/couple3/9CA83304-F1A3-41D3-9A80-52608A2BBD29.jpeg')} alt ='couple'/>
             </Link>
         </div>
         <div className="galleryContainer">
             <Link to='#' className="pictureAnchor">
-            <img src={require('../assets/pictures/individual2/3067ECC6-8E71-4895-82FE-40C5AC264972.jpeg')} alt='girl on a blanket'/>
+                      <img src={require('../assets/pictures/individual2/3067ECC6-8E71-4895-82FE-40C5AC264972.jpeg')} alt='girl on a blanket'/>
             </Link>
             <Link id ='GI_linkText' to="#">
                 Lifestyle
