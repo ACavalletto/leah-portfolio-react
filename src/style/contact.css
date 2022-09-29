@@ -52,7 +52,7 @@ textarea::placeholder{
     margin-top: -15px;
     margin-bottom: 25px;
 }
-button{
+#contactBtn{
     width: 120px;
     height: 25px;
     border-radius: 5px;
@@ -133,7 +133,7 @@ input[type='radio']{
     #C_slogan{
         font-size: 58px;
     }
-    button{
+    #contactBtn{
         width: 180px;
         height: 45px;
         font-size: 22px;
