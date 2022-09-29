@@ -25,3 +25,14 @@
 .topNav #homeBtn{
     float: left;
 }
+@media screen and (min-width: 481px){
+    .topNav a{
+        font-size: 18px;
+    }
+    .topNav a.icon{
+        margin-right: 20px;
+    }
+    #homeBtn{
+        margin-left: 15px;
+    }
+}
