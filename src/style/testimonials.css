@@ -26,7 +26,6 @@ body{
 #testimonialImg{
     width: 213px;
     height: 320px;
-
     border-radius: 120px 120px 5px 5px;
     margin-bottom: 25px;
 }
@@ -55,5 +54,9 @@ body{
     }
     #TES_p{
         margin: 50px 50px 87px 50px;
+        font-size: 22px;
+    }
+    .TES_contentContainer{
+        height: 100vh;
     }
 }
