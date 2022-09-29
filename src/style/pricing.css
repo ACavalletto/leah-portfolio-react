@@ -134,15 +134,18 @@ body{
         display: flex;
         flex-direction: row;
         flex-wrap:wrap;
-        gap: 100px;
+        gap: 50px;
         margin-bottom: 85px;
     }
+    .P_contentContainer{
+        height: 100vh;
+    }
     .bronzeTier{
-        margin-left: 15px;
+        margin-left: 35px;
         margin-top: 36px;
     }
     .P_contentContainer p{
-        font-size: 18px;
+        font-size: 20px;
     }
     .P_contentContainer h3{
         font-size: 1.5em;
@@ -151,5 +154,23 @@ body{
     #contact {
         width: 150px;
         height: 35px;
+    }
+    li{
+        font-size: 18px;
+    }
+    .bronzeTier h6{
+        font-size: 20px
+    }
+    .silverTier h6{
+        font-size: 20px
+    }
+    .goldTier h6{
+        font-size: 20px
+    }
+    #contact{
+        margin-bottom: 40px;
+        width: 160px;
+        height: 45px;
+        font-size: 18px;
     }
 }
