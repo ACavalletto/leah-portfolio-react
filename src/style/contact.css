@@ -104,3 +104,38 @@ input[type='radio']{
     margin: -15px 0 0 0;
     color: #D9A17F;
 }
+@media screen and (min-width: 481px){
+    #textInput{
+        width: 250px;
+        height: 35px;
+        font-size: 22px;
+    }
+    #textInput::placeholder{
+        font-size: 22px;
+    }
+    #radioBtns{
+        margin: 10px 100px 0 120px;  
+    }
+    #radioBtns label{
+        font-size: 18px;
+    }
+    .labelText{
+        font-size: 22px;
+    }
+    textarea{
+        width: 400px;
+        font-size: 16px;
+        padding: 15px;
+    }
+    textarea::placeholder{
+        font-size: 18px;
+    }
+    #C_slogan{
+        font-size: 58px;
+    }
+    button{
+        width: 180px;
+        height: 45px;
+        font-size: 22px;
+    }
+}

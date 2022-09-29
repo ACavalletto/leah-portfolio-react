@@ -66,7 +66,7 @@ const Contact = () => {
             </p>
             <p id='C_slogan'>I can't wait to hear from you!</p>
             <p id='btn'>
-              <button type='submit'>Send</button>
+              <button type='submit'>Send Email</button>
             </p>
           </form>
         </div>
