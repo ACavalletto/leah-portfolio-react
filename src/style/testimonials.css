@@ -50,13 +50,19 @@ body{
 }
 @media screen and (min-width: 481px){
     #testimonialImg{
+        width: 263px;
+        height: 350px;
         margin: 50px 0 ;
     }
     #TES_p{
         margin: 50px 50px 87px 50px;
-        font-size: 22px;
+        font-size: 20px;
     }
     .TES_contentContainer{
         height: 100vh;
+    }
+    #TES_names{
+        margin-top: -100px;
+        padding-right: 210px; 
     }
 }
