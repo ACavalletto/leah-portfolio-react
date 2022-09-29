@@ -47,3 +47,20 @@ body{
 #GI_linkText{
     margin: 0 10px;
 }
+@media screen and (min-width: 481px){
+    .galleryContainer{
+        display: block;
+        margin-top: 15px;
+    }
+    #GI_linkText{
+        position: relative;
+        margin: 50px;
+        top: -150px;
+        font-size: 62px;
+    }
+    .galleryContainer img{
+        height: 365px;
+        width: 265px;
+        border-radius: 120px 120px 5px 5px;
+    }
+}
