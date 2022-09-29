@@ -11,10 +11,10 @@ const Landing = () => {
         };
     }
     
-    const [windowWidth, setWindowHeight] = useState(getWindowDimensions())
+    const [windowWidth, setWindowWidth] = useState(getWindowDimensions())
     useEffect(() => {
         function handleResize() {
-            setWindowHeight(getWindowDimensions());
+            setWindowWidth(getWindowDimensions());
         }
 
         window.addEventListener('resize', handleResize);

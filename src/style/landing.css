@@ -188,6 +188,9 @@ span{
     padding: 0 25px 10px 15px;
     text-align: justify;
 }
+#L_tabletImg{
+    display: none;
+}
 
 @media screen and (min-width: 481px){
     .cover{
@@ -215,7 +218,7 @@ span{
     .gallerySection{
         flex-direction: row;
         gap: 30px;
-        margin-left: 75px;
+        margin-left: 85px;
     }
     .linkBtns{
         flex-direction: column;
@@ -244,5 +247,8 @@ span{
         text-align: justify;
         font-size: 18px;
         line-height: 1.5;
+    }
+    #L_tabletImg{
+        display: block;
     }
 }
