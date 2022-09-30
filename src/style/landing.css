@@ -252,3 +252,76 @@ span{
         display: block;
     }
 }
+@media (min-width: 769px){
+    .cover{
+        height: 680px;
+    }
+    #coverTitle{
+        font-size: 54px;
+        -webkit-text-stroke-width: .35px;
+        margin-top: 400px;
+    }
+    #contactLanding{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+    }
+    #landingSlogan{
+        line-height: .85;
+        margin-top: -95px;
+    }
+    #landingSloganLine1{
+        font-size: 84px;
+    }
+    #landingSloganLine2{
+        font-size: 84px;
+    }
+    .gallerySection{
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .gallerySection img{
+        height:425px;
+        width: 313px;
+        border-radius: 145px 145px 5px 5px;
+    }
+    .galleryBtn button{
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .testimonialsSection button{
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+    #aboutHeaderL{
+        font-size: 125px;
+        margin-top: -5px;
+        margin-bottom: 40px;
+        margin-left: 40%;
+    }
+    #aboutTextL{
+        margin-left: 40%;
+    }
+    #aboutTextL button{
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .aboutSection img{
+        height: 425px;
+        width: 313px;
+        border-radius: 145px 145px 5px 5px;
+    }
+    #instagramHandle {
+        font-size: 24px;
+        width: 100%;
+        margin-top: -40px;
+    }
+    #L_aboutP{
+        font-size: 20px;
+        padding: 0 15% 0 15%;
+
+    }
+}
