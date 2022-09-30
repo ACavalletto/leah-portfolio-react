@@ -36,3 +36,9 @@
         margin-left: 15px;
     }
 }
+@media (min-width: 769px){
+    .topNav #myLinks a{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+}
