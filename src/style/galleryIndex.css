@@ -64,3 +64,18 @@ body{
         border-radius: 120px 120px 5px 5px;
     }
 }
+@media (min-width: 769px){
+    .galleryContainer img{
+        height:425px;
+        width: 313px;
+        border-radius: 145px 145px 5px 5px;
+    }
+    #C_title{
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    #GI_linkText{
+        font-size: 92px;
+        top: -165px;
+    }
+}
