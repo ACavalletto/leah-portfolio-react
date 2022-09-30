@@ -174,3 +174,44 @@ body{
         font-size: 18px;
     }
 }
+@media (min-width: 769px){
+    #contact{
+        width: 185px;
+    }
+    .bronzeTier img{
+        height:425px;
+        width: 313px;
+        border-radius: 145px 145px 5px 5px;
+    }
+    .bronzeTier h5{
+        font-size: 20px;
+    }
+    .silverTier img{
+        height:425px;
+        width: 313px;
+        border-radius: 145px 145px 5px 5px;
+    }
+    .silverTier h5{
+        font-size: 20px;
+    }
+    .goldTier img{
+        height:425px;
+        width: 313px;
+        border-radius: 145px 145px 5px 5px;
+    }
+    .goldTier h5{
+        font-size: 20px;
+    }
+    .P_contentContainer{
+        height: 1000px;
+    }
+    .P_contentContainer h3{
+        font-size: 32px;
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    #tiers{
+        justify-content: center;
+        gap: 100px;
+    }
+}
