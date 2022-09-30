@@ -15,6 +15,7 @@ body{
     border-right-style: none;
     background: #f5f3f1;
     text-align: center;
+    overflow: auto;
 }
 .TES_contentContainer h3{
     color: #819283;
@@ -64,5 +65,27 @@ body{
     #TES_names{
         margin-top: -100px;
         padding-right: 210px; 
+    }
+}
+@media (min-width: 769px){
+    #testimonialImg{
+        height: 425px;
+        width: 312px;
+        border-radius: 145px 145px 5px 5px;
+        margin: 50px 0 ;
+    }
+    #TES_p{
+        margin: 0px 15% 0 15%;
+        font-size: 20px;
+        text-align: justify;
+    }
+    #TES_names{
+        margin-top: -105px;
+        padding-right: 255px; 
+        font-size: 68px;
+    }
+    .TES_contentContainer h3{
+        font-size: 32px;
+        margin-bottom: 0px;
     }
 }
